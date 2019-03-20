@@ -1,7 +1,8 @@
 # laravel-angular-auth-passport
 Functions
   1. Register
-    1.1 verify email before login
+    
+		1.1 verify email before login
   2. Login
     2.1 Automatically login when you use the next time
   3. Logout
