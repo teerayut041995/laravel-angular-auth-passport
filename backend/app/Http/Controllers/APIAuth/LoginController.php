@@ -29,7 +29,7 @@ class LoginController extends ApiController
 
         
         $user = $request->user();
-        $tokenResult = $user->createToken('Movies Personal Access Client');
+        $tokenResult = $user->createToken('Laravel Personal Access Client');
         $token = $tokenResult->token;
         $token->save();
 
